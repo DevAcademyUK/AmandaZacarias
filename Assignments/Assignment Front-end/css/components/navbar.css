@@ -1,0 +1,8 @@
+#logo h6 {
+	text-decoration-line: none !important;
+	color: black;
+}
+
+#logo h6:hover {
+	text-decoration-line: none !important;
+}

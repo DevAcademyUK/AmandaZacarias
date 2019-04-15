@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>login page</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  
+  <!-- NAVBAR -->
+  <div class="border-bottom">
+    <div class="d-flex justify-content-between align-items-center container p-2">
+      <div class="d-flex align-items-center" id="logo" 
+      >
+        <a href="index.html"><h6>3Angle</h6></a>
+        <a href="index.html"><img src="images/logo/triangle-b.png" width="60px"></a>
+      </div>
+      <div>
+        <a href="newproject.html" class="button-green">Try for free</a>
+        <a href="" data-toggle="modal" data-target="#loginmodal" class="button-green">Login</a>
+        <a href="" data-toggle="modal" data-target="#signupmodal" class="button-green-reverse">Sign up</a>  
+      </div>
+    </div>
+  </div>
+
+  <div>
+    
+    <h3>Please insert your details</h3>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Create a project</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class="border-bottom">
+    <div class="d-flex justify-content-between align-items-center container p-2">
+      <div class="d-flex align-items-center" id="logo" 
+      >
+        <a href="index.html"><h6>3Angle</h6></a>
+        <a href="index.html"><img src="images/logo/triangle-b.png" width="60px"></a>
+      </div>
+      <div>
+        <a href="index.html" class="button-green">Home</a>
+        <a href="" data-toggle="modal" data-target="#loginmodal" class="button-green">Login</a>
+        <a href="" data-toggle="modal" data-target="#signupmodal" class="button-green-reverse">Sign up</a>  
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL LOGIN -->
+  <div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">LOGIN</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <button type="button" class="btn btn-success">Continue</button>
+          </form>
+        </div>
+        
+        <div class="modal-header">
+          <h6 class="modal-title">Not a member yet? Go to sign up link.</h6>        
+        </div>
+      <!-- <div class="modal-body">
+        <h6>SIGNUP here</h6>
+      <button h-ref="" type="button" class="btn btn-primary" data-target="#signupmodal">Signup</button>
+      <a href="" class="btn btn-primary" role="button" aria-pressed="true">Signup</a> -->
+      <div class="modal-footer">
+        <a href=""></a>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+      </div>
+  </div>
+</div>
+</div>
+
+
+<!-- MODAL LOGOUT -->
+<div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">SIGNUP</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your name">  
+
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <button type="button" class="btn btn-success">Continue</button>
+        </form>
+      </div>
+      
+
+      <div class="modal-header">
+        <h6 class="modal-title">Already a member? Go to sign in.</h6> 
+      </div>
+
+      <div class="modal-footer">
+        <a href=""></a>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+      </div>
+      <!-- <div class="modal-body">
+        <h6>SIGNIN here</h6>
+      </div>
+      <button h-ref="#signupmodal" type="button" class="btn btn-primary">Signin</button>
+      <div class="modal-footer">
+        <a href=""></a>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button> -->
+      </div>
+  </div>
+</div>
+
+
+  <!-- PROJECT LIST -->
+  <div class="container">
+    <h3 class= "ml-3 mt-3 mb-3">Some projects examples</h3>
+    <div class="d-flex justify-content-around">
+      <!-- cards -->
+      <div class="cards">
+        <div class="card" style="background-image: url(images/carousel/webdesign.jpeg)">
+          Web Design
+        </div>
+
+        <div class="card" style="background-image: url(images/carousel/coding.jpg)">
+          Software Development
+        </div>
+        
+        <div class="card" style="background-image: url(images/carousel/graphic.jpg)">
+          Graphic Design
+        </div>  
+
+        <div class="card" style="background-image: url(images/carousel/webdesign.jpg)">
+          Web Design
+        </div>
+
+        <div class="card" style="background-image: url(images/carousel/webdesign.jpeg)">
+          Web Design
+        </div>
+
+        <div class="card" style="background-image: url(images/carousel/coding.jpg)">
+          Software Development
+        </div>
+        
+        <div class="card" style="background-image: url(images/carousel/graphic.jpg)">
+          Graphic Design
+        </div>  
+
+        <div class="card" style="background-image: url(images/carousel/webdesign.jpg)">
+          Web Design
+        </div>
+
+        <div class="card" style="background-image: url(images/carousel/webdesign.jpeg)">
+          Web Design
+        </div>
+
+        <div class="card" style="background-image: url(images/carousel/coding.jpg)">
+          Software Development
+        </div>
+        
+        <div class="card" style="background-image: url(images/carousel/graphic.jpg)">
+          Graphic Design
+        </div>  
+
+        <div class="card" style="background-image: url(images/carousel/webdesign.jpg)">
+          Web Design
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
