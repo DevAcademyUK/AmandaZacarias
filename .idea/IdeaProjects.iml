@@ -7,10 +7,12 @@
       <excludeFolder url="file://$MODULE_DIR$/Assignments" />
       <excludeFolder url="file://$MODULE_DIR$/Books" />
       <excludeFolder url="file://$MODULE_DIR$/Classes_Advanced" />
+      <excludeFolder url="file://$MODULE_DIR$/Code_Training" />
       <excludeFolder url="file://$MODULE_DIR$/Code_Training/Java-1st week" />
       <excludeFolder url="file://$MODULE_DIR$/Code_Training/NodeProject" />
       <excludeFolder url="file://$MODULE_DIR$/bookshop" />
     </content>
+    <content url="file://$MODULE_DIR$/Assignments/Assignment 2" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

@@ -64,7 +64,7 @@ public class Employee {
         return address;
     }
 
-    public void setAddress(String address) {
+     void setAddress(String address) {
         this.address = address;
     }
 
@@ -80,7 +80,7 @@ public class Employee {
         return county;
     }
 
-    public void setCounty(String county) {
+    private void setCounty(String county) {
         this.county = county;
     }
 
